@@ -1,14 +1,13 @@
 import React from "react"
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import LandingPage from "./components/LandingPage"
+import { Outlet } from 'react-router-dom'
 import "./styles/App.css"
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage/>
-    </div>
-  )
+<main>
+  <Outlet />
+</main>
+  );
 }
 
 export default App

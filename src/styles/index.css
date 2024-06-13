@@ -1,0 +1,28 @@
+:root {
+    --color-primary: #121212;
+    --color-secondary: #FFF5EB;
+    --color-tertiary: #52FFB8;
+  }
+  
+  * {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--color-primary);
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: black;
+  }
+  
+  footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+  }
