@@ -17,3 +17,12 @@ body {
   line-height: 1.6;
 }
 
+header {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
