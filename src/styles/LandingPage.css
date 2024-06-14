@@ -2,7 +2,7 @@
     font-size: 50px;
   }
 
-  body {
+  body.landing-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
   }
   
   @keyframes expandLine {
-    to { width: 100%; }
+    to { width: 50%; }
   }
 
   @keyframes closeLine {

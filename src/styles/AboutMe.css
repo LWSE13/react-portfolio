@@ -1,0 +1,16 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.about-container {
+    flex: 1;
+    display: flex;
+justify-content: center;
+}
+
+.abt-title {
+    font-size: 50px;
+
+}
