@@ -4,7 +4,7 @@
     min-height: 100vh;
 }
 
-.about-container {
+.container {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -24,7 +24,7 @@
 }
 
 
-.abt-title {
+.title2 {
     font-size: 50px;
 
 }

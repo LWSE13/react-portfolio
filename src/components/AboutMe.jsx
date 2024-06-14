@@ -8,8 +8,8 @@ export default function AboutMe() {
         <>
             <div className="page-container">
                 <Header />
-                <div className="about-container">
-                    <h1 className="abt-title">ABOUT ME</h1>
+                <div className="container">
+                    <h1 className="title2">ABOUT ME</h1>
                     <div className="about-content">
                         <div className="about-text">
                         <div className="text-container">

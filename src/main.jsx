@@ -5,7 +5,8 @@ import App from './App.jsx'
 import './styles/index.css'
 
 import LandingPage from './components/LandingPage.jsx'
-import AboutMe from './components/AboutMe.jsx'
+import AboutMe from './components/AboutMe.jsx' 
+import Portfolio from './components/Portfolio.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <AboutMe />
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio />
       }
     ]
   }
