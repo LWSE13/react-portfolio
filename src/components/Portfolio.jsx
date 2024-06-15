@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import ProjectsContainer from './ProjectContainer';
 import '../styles/portfolio.css';
 
 export default function Portfolio() {
@@ -11,7 +12,7 @@ export default function Portfolio() {
           <div className="container">
             <h1 className='title2'>PORTFOLIO</h1>
             <div className="portfolio-container">
-              {}
+              <ProjectsContainer />
             </div>
           </div>
           <Footer />
