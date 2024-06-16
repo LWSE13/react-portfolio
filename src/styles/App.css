@@ -1,12 +1,12 @@
 :root {
   --color-primary: #121212;
   --color-secondary: #FFF5EB;
-  --color-tertiary: #52FFB8;
+  --color-tertiary: rgba(255, 255, 255, 0.5);
 }
 
 * {
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: var(--color-secondary);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  color: white;
+
   padding: 0px 10px;
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,6 @@ flex-direction: row;
 }
 
 .navLink {
-  color: white;
   list-style-type: none;
   padding: 10px;
 
@@ -49,7 +48,6 @@ flex-direction: row;
 
 footer {
   background-color: var(--color-primary);
-  color: white;
   padding: 5px 10px;
   text-align: center;
   margin-top: 30px
@@ -59,8 +57,3 @@ footer {
   font-size: small;
 }
 
-.HFLine {
-  height: 2px;
-  background: #333333;
-  width: 100%;
-}

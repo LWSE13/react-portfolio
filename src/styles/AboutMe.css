@@ -32,9 +32,7 @@
 .text-container {
     width: 30%;
     height: 600px;
-    outline: solid 1px white;
-    background-color: #FBF5F3;
-    border-radius: 10px; 
+    outline: solid 2px var(--color-tertiary);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); 
 }
 
@@ -43,13 +41,6 @@
     text-align: center;
 }
 
-.inner-txt-container h2 {
-    color: black;
-}
-
-.inner-txt-container p {
-    color: black;
-}
 
 .heading-center {
     text-align: center;
