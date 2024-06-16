@@ -7,6 +7,7 @@ import './styles/index.css'
 import LandingPage from './components/LandingPage.jsx'
 import AboutMe from './components/AboutMe.jsx' 
 import Portfolio from './components/Portfolio.jsx'
+import Resume from './components/Resume.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/portfolio',
         element: <Portfolio />
+      },
+      {
+        path: '/resume',
+        element: <Resume />
       }
     ]
   }

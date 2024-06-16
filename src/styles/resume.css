@@ -1,0 +1,9 @@
+.ctd-img {
+    width: 15%;
+}
+
+.resume-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
