@@ -21,6 +21,13 @@ const projectData = [
         image: './images/CC.png',
         deployedUrl: 'https://codeconverse.onrender.com/',
         githubUrl: 'https://github.com/LWSE13/CodeConverse'
+    },
+    {
+        id: 4,
+        name: 'I-Clear',
+        image: './images/IC.png',
+        deployedUrl: 'https://lwse13.github.io/I-Clear/',
+        githubUrl: 'https://github.com/LWSE13/I-Clear'
     }
 ]
 

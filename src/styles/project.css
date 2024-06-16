@@ -5,8 +5,8 @@
 .Project {
     position: relative;
     width: fit-content;
-    width: 30%;
-    margin: 10px;
+    width: 40%;
+    margin: 50px;
     outline: solid 2px var(--color-tertiary);
   }
   

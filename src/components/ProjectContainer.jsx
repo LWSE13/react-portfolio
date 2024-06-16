@@ -4,7 +4,7 @@ import projectData from '../data/projectData';
 
 function ProjectsContainer() {
   return (
-    <div>
+    <div className='projects-container'>
       {projectData.map((project) => (
         <Project
           key={project.id} 

@@ -1,0 +1,12 @@
+.projects-container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+}
