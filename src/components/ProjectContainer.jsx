@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './project'; 
+import Project from './Project'; 
 import projectData from '../data/projectData';
 
 function ProjectsContainer() {
