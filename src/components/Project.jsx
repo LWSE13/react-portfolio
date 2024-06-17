@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/project.css';
 
-function Project({ name, image, deployedUrl, githubUrl }) {
+export default function Project({ name, image, deployedUrl, githubUrl }) {
   return (
     <div className="Project">
       <img className='project-img' src={image} alt={name} />
@@ -23,5 +23,3 @@ function Project({ name, image, deployedUrl, githubUrl }) {
     </div>
   );
 }
-
-export default Project;
