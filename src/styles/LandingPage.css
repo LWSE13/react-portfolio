@@ -95,3 +95,9 @@
   .btn:nth-child(4) {
     animation-delay: 3.5s;
   }
+
+  @media (max-width: 932px) {
+    .btn-row {
+      flex-direction: column;
+    }
+  }

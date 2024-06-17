@@ -57,3 +57,8 @@ footer {
   font-size: small;
 }
 
+@media (max-width: 932px) {
+.navLink {
+  text-align: center;
+}
+}

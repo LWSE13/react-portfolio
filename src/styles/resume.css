@@ -1,9 +1,16 @@
 .ctd-img {
-    width: 15%;
+    width: 9%;
 }
 
-.resume-top {
+.resume-header {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title-res {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 50px;
 }

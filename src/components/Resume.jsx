@@ -9,12 +9,11 @@ export default function Resume() {
             <div className="page-container">
                 <Header />
                 <div className="container">
-                    <div className="resume-top">
-                        <img className="ctd-img" src="images/c2d2.png" alt="Click To Download" />
-                        <div className="resume-header">
-                            <h1 className='title2'>RESUME</h1>
-                        </div>
-                    </div>
+
+                    <h1 className='title2'>
+                        RESUME
+                    </h1>
+                    <img className='ctd-img' src="images/c2d2.png" alt="Click To Download" />
                 </div>
                 <Footer />
             </div>
