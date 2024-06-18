@@ -26,7 +26,7 @@ form {
     color: black;
   }
   
-  button[type="submit"] {
+  .submit-button {
     width: 100%;
     background-color: #af4c4c;
     color: white;
@@ -38,7 +38,7 @@ form {
     transition: 0.5s;
   }
   
-  button[type="submit"]:hover {
+  .submit-button:hover {
     background-color: #45a049;
   }
   

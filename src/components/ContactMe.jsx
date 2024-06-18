@@ -66,7 +66,7 @@ export default function ContactMe() {
             ></textarea>
             {errors.message && <div style={{ color: 'red' }}>{errors.message}</div>}
           </div>
-          <button type="submit">Submit</button>
+          <button className="submit-button">Submit</button>
         </form>
       </div>
       <Footer />
