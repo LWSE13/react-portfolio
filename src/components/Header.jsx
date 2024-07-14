@@ -10,7 +10,6 @@ export default function Header() {
                     <li className="navLink"><Link to="/about">ABOUT ME</Link></li>
                     <li className="navLink"><Link to="/portfolio">PORTFOLIO</Link></li>
                     <li className="navLink"><Link to="/resume">RESUME</Link></li>
-                    <li className="navLink"><Link to="/contact">CONTACT ME</Link></li>
                 </ul>
             </nav>
         </header>

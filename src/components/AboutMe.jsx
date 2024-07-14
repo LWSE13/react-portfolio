@@ -31,7 +31,7 @@ export default function AboutMe() {
                         <div className="text-container">
                             <div className='inner-txt-container'>
                                 <h2>MY FUTURE</h2>
-                                <p>In the future I would love to break into the industry and finally get my foot in the door. I want to continue expanding on my skills in my spare time, some languages that interest me are Python, Rust and c++. AI is also another technology that I would love to play around with but post bootcamp I think some rest is well deserved as I have hammered my brain with information over the last 6 months</p>
+                                <p>In the future I would love to break into the industry and finally get my foot in the door. I want to continue expanding on my skills in my spare time, some languages that interest me are Python, Rust and c++. AI is also another technology that I would love to play around with.</p>
                             </div>
                         </div>
                         </div>

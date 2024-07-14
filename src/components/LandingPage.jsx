@@ -15,7 +15,7 @@ export default function LandingPage() {
       <button className='btn' onClick={() => navigate('/about')}>About Me</button>
       <button className='btn' onClick={() => navigate('/portfolio')}>Portfolio</button>
       <button className='btn' onClick={() => navigate('/resume')}>Resume</button>
-      <button className='btn' onClick={() => navigate('/contact')}>Contact Me</button>
+      {/*<button className='btn' onClick={() => navigate('/contact')}>Contact Me</button>*/}
       </div>
     </div>
   );

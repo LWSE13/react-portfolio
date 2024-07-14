@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles/contactme.css";
+import { SocialIcon } from "react-social-icons";
 
 export default function ContactMe() {
   const [formFields, setFormFields] = useState({ name: '', email: '', message: '' });
@@ -33,41 +34,11 @@ export default function ContactMe() {
       <Header />
       <div className="container">
         <h1>Contact Me</h1>
-        <form>
-          <div>
-            <label>Name:</label>
-            <input
-              type="text"
-              name="name"
-              value={formFields.name}
-              onChange={formChange('name')}
-              onBlur={handleFocus('name')}
-            />
-            {errors.name && <div style={{ color: 'red' }}>{errors.name}</div>}
-          </div>
-          <div>
-            <label>Email:</label>
-            <input
-              type="email"
-              name="email"
-              value={formFields.email}
-              onChange={formChange('email')}
-              onBlur={handleFocus('email')}
-            />
-            {errors.email && <div style={{ color: 'red' }}>{errors.email}</div>}
-          </div>
-          <div>
-            <label>Message:</label>
-            <textarea
-              name="message"
-              value={formFields.message}
-              onChange={formChange('message')}
-              onBlur={handleFocus('message')}
-            ></textarea>
-            {errors.message && <div style={{ color: 'red' }}>{errors.message}</div>}
-          </div>
-          <button className="submit-button">Submit</button>
-        </form>
+        <div className="icon-container">
+          <SocialIcon id="github" className="icon" url="https://github.com/LWSE13"></SocialIcon>
+          <SocialIcon id="linkedIn" className="icon" url="https://www.linkedin.com/in/lee-wheeler-865818271/"></SocialIcon>
+          <SocialIcon id="email" className="icon" network="email" href="mailto:leewheeler888@gmail.com"></SocialIcon>
+        </div>
       </div>
       <Footer />
     </div>

@@ -46,3 +46,16 @@ form {
     color: red;
     font-size: 0.8em;
   }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .icon {
+    margin: 0 10px;
+    width: 50%;
+  }
+
+

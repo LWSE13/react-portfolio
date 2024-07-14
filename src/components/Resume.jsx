@@ -20,7 +20,9 @@ export default function Resume() {
                         <li>
                             <h2>EDUCATION</h2>
                             <p>Full Stack Development Bootcamp - University Of Birmingham</p>
-                            <p>GCSEs - Dudley College</p>
+                            <p>Electrical Installation - Dudley College</p>
+                            <p>Welding - Dudley College</p>
+                            <p>GCSEs - Holly Hall Academy</p>
                         </li>
                         <div className="line-container">
                             <div className="dec-line"></div>
@@ -28,8 +30,6 @@ export default function Resume() {
                         <li>
                             <h2>EXPERIENCE</h2>
                             <p>Full Stack Developer - University Of Birmingham</p>
-                            <p>Electrical Installation - Dudley College</p>
-                            <p>Welding - Dudley College</p>
                         </li>
                         <div className="line-container">
                             <div className="dec-line"></div>
